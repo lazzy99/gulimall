@@ -1,13 +1,13 @@
 server:
-  port: 80
+  port: 88
 
 # mysql
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.56.10:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.56.10:3306/gulimall_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: root
     #oracle配置
@@ -28,10 +28,9 @@ spring:
   jackson:
     time-zone: GMT+8
     date-format: yyyy-MM-dd HH:mm:ss
-  resources:
-  application:
-
-    static-locations: classpath:/static/,classpath:/views/
+  web:
+    resources:
+      static-locations: classpath:/static/,classpath:/views/
 
 
 mybatis:

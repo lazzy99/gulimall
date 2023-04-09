@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall_order/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall_ware/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-gatewary/pom.xml" />
       </list>
     </option>
   </component>

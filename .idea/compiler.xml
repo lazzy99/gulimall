@@ -12,14 +12,21 @@
         <module name="gulimall_product" />
         <module name="gulimall-common" />
         <module name="renren-fast" />
-        <module name="gulimall_ware" />
         <module name="gulimall_coupon" />
+        <module name="gulimall_ware" />
+        <module name="gulimall-gatewary" />
         <module name="renren-generator" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall-gatewary" options="-parameters" />
+      <module name="gulimall_coupon" options="-parameters" />
+      <module name="gulimall_member" options="-parameters" />
+      <module name="gulimall_order" options="-parameters" />
+      <module name="gulimall_product" options="-parameters" />
+      <module name="gulimall_ware" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
     </option>
